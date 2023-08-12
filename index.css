@@ -1,14 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
-    background: linear-gradient( #fffb00,#53da80);
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+   
+   
+    font-family: sans-serif;
+}
+.Menu-bar {
+    background: rgb(0, 100, 0 );
+    text-align: center;
+}
+
+.Menu-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+}
+
+.Menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 4px;
+}
+
+.Menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Active, .Menu-bar ul li:hover {
+    background:#2bab0d;
+    border: 3px;
+    columns: 3;
+} 
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1 {
-    font-size: 26px;
-    color: blue;
-    font-weight: 28px;
-    text-underline-color: white;
-    left: -150px;
+    font-size: 35px;
+    color: rgb(4, 20, 245);
     font-family: 'Times New Roman', Times, serif;
+    padding-left: 220px;
+    padding-top: 20px;
+    padding-bottom: -300px;
+}
+
+
+image.logo {
+ background-color: #2bab0d;
 }
 
 h2 {
@@ -34,12 +82,27 @@ h5{
 
 h6{
 font-size: 15px;
-color: white;
+color: rgb(74, 116, 231);
 
 
 }
 
-div {
+h6.aim {
+    color: blueviolet;
+    padding-left: 270px;
+    padding-top: 0px;
+}
+
+div{
     border: 1px solid white;
     align-items: center;
+}
+
+button :hover {
+    background: blue;
+}
+
+ol img li {
+    display: inline-flex;
+    list-style-type: none;
 }
