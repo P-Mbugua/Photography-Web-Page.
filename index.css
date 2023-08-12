@@ -60,17 +60,21 @@ image.logo {
 }
 
 h2 {
-
+    color: #2bab0d;
+    padding-top: 5px;
+    font-size: 26px;
 
 }
 
 h3 {
+    padding-top: 5px;
 
 
 }
 
 h4{
 
+    padding-top: 5px;
 
 }
 
@@ -102,7 +106,12 @@ button :hover {
     background: blue;
 }
 
-ol img li {
+.members img  {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.names li{
     display: inline-flex;
     list-style-type: none;
 }
