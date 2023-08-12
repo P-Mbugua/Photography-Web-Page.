@@ -40,9 +40,11 @@ body {
 } 
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: url(https://media.macphun.com/img/uploads/macphun/blog/2246/_1.jpg?q=75&w=1710&h=906&resize=cover);
     padding-left: 30px;
     padding-right: 30px;
+   
+
 }
 
 h1 {
