@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient( #fffb00,#53da80);
+}
+
+h1 {
+    font-size: 26px;
+    color: blue;
+    font-weight: 28px;
+    text-underline-color: white;
+    left: -150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+
+
+}
+
+h3 {
+
+
+}
+
+h4{
+
+
+}
+
+h5{
+
+
+
+}
+
+h6{
+font-size: 15px;
+color: white;
+
+
+}
+
+div {
+    border: 1px solid white;
+    align-items: center;
+}
